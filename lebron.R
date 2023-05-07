@@ -1,5 +1,5 @@
 lebron = find_player_by_name("LeBron James")
-seasons = season_strings[as.character(2003:2015)]
+seasons = season_strings[as.character(2003:2022)]
 court_theme = court_themes$dark
 
 all_shots = bind_rows(lapply(seasons, function(season) {
